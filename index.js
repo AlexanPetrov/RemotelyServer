@@ -1,8 +1,9 @@
 import express from "express";
 import routes from "./startup/routes.js";
+// import bodyParser from "body-parser";
 
 const app = express();
-
+// app.use(bodyParser.json());
 // routes
 routes(app);
 
